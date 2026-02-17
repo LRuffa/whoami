@@ -22,7 +22,6 @@ const {
 // https://astro.build/config
 const config = defineConfig({
 	site: 'https://lruffa.github.io',
-	base: '/whoami/',
 	output: 'static',
 	integrations: [
 		expressiveCode({
@@ -31,10 +30,10 @@ const config = defineConfig({
 		mdx(),
 		sitemap(),
 		spectre({
-			name: 'Spectre',
+			name: 'Lucas Ruffa',
 			openGraph: {
 				home: {
-					title: 'Spectre',
+					title: 'Lucas Ruffa Portfolio',
 					description: 'A minimalistic theme for Astro.',
 				},
 				blog: {
