@@ -22,7 +22,7 @@ const {
 // https://astro.build/config
 const config = defineConfig({
 	site: 'https://lruffa.github.io',
-	base: '/whoami/',
+	base: '/whoami',
 	output: 'static',
 	integrations: [
 		expressiveCode({
